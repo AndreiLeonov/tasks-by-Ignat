@@ -1,0 +1,13 @@
+.default {
+    border: 1px solid black;
+    outline: none;
+    border-radius: 3px;
+    padding: 2px 4px;
+    background-color: lawngreen;
+
+}
+
+.red {
+    background: red;
+    border-radius: 3px;
+}

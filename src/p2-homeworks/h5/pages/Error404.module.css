@@ -1,0 +1,20 @@
+.error {
+
+}
+
+.error404 {
+    padding: 100px 0px 20px 0px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.text {
+    font-size: 40px;
+    text-align: center;
+}
+
+.emoji {
+    margin-top: 200px;
+    font-size: 40px;
+    text-align: center;
+}

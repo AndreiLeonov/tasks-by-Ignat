@@ -1,0 +1,22 @@
+.menu {
+    /*display: none;*/
+    position: absolute;
+    height: 140px;
+    width: 100%;
+    left: 0px;
+    top: -147px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    box-shadow:0 0 5px #777;
+    background: #464555;
+    color:#fff;
+    padding: 7px;
+
+}
+
+.menu:hover {
+    /*left: 0;*/
+    top: 0;
+}

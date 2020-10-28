@@ -1,0 +1,74 @@
+/*.main {*/
+/*    display: grid;*/
+/*    background-color: blue;*/
+/*}*/
+
+.dialog {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /*background-color: aquamarine;*/
+    max-height: 300px;
+    width: 500px;
+    /*border: 1px solid red;*/
+    margin-left: 575px;
+
+}
+
+.dialog_photo {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.dialog_photo img{
+    width: 50px;
+    border-radius: 100px;
+    border: 1px solid darkgray;
+    text-align: right;
+}
+
+.dialog_nickname {
+    color: blueviolet;
+    text-align: left;
+    padding-left: 7px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.dialog_message {
+    color: beige;
+    text-align: left;
+    padding-left: 7px;
+}
+
+.dialog_timeSend {
+    color: lavender;
+    text-align: right;
+    padding-right: 7px;
+}
+
+.dialog_mainMessagePart {
+    background-color: darkgray;
+    opacity: 1;
+    border-radius: 20px;
+    border: 1px solid darkgray;
+    position: relative;
+    color: #fff;
+    box-shadow: 0 0 7px #000; /* Добавляем тень для блока */
+}
+
+.dialog_mainMessagePart::after, .dialog_mainMessagePart::before {
+    content: '';
+    position: absolute;
+    background: darkgray;
+    left: -6px; bottom: 6px;
+    width: 25px; height: 25px;
+    box-shadow: 0 0 7px #000; /* Добавляем тень для уголка */
+    z-index: -1; /* Прячем за основным блоком */
+    transform: rotate(35deg); /* Поворачиваем на 45º */
+    -webkit-transform: rotate(35deg);
+}
+.dialog_mainMessagePart::before {
+    z-index: 1; /* Накладываем поверх, чтобы скрыть следы тени */
+    box-shadow: none; /* Прячем тень */
+}
