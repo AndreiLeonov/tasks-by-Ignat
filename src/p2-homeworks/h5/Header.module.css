@@ -1,22 +1,38 @@
 .menu {
-    /*display: none;*/
     position: absolute;
-    height: 140px;
-    width: 100%;
-    left: 0px;
-    top: -147px;
+    width: 145px;
+    left: -140px;
+    top: 0px;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
     box-shadow:0 0 5px #777;
-    background: #464555;
+    background: navy;
     color:#fff;
-    padding: 7px;
+    padding: 15px;
+    border-radius: 10px;
 
 }
 
 .menu:hover {
-    /*left: 0;*/
-    top: 0;
+    left: -10px;
 }
+
+.defaultLink {
+    color: white;
+    text-decoration: none;
+}
+
+.defaultLink:hover {
+    color: deeppink;
+    text-decoration: none;
+}
+
+.activeLink {
+    color: deeppink;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+

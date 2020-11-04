@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function PreJunior() {
+function JuniorPlus() {
     return (
         <div>
             <h3>NOTHING YET</h3>
@@ -9,4 +9,4 @@ function PreJunior() {
     );
 }
 
-export default PreJunior;
+export default JuniorPlus;
