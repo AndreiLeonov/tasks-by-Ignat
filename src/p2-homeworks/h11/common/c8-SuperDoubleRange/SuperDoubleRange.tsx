@@ -27,11 +27,8 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
         onChangeRange && onChangeRange(newValue as number[]);
     };
 
-
-
-
     return (
-        <div style={{width: 600}}>
+        <div style={{width: 600, margin: "auto"}}>
             <Slider
                 value={value}
                 onChange={handleChange}

@@ -4,12 +4,7 @@ import SuperDoubleRange from "./common/c8-SuperDoubleRange/SuperDoubleRange";
 
 function HW11() {
     const [value1, setValue1] = useState(0);
-    // const [value2, setValue2] = useState(100);
-    const [value, setValue] = React.useState<number | number[]>([0, 100]);
-    // const onChangeRange = (value: number | number[]) => {
-    //     setValue1(value[0])
-    //     setValue2(value[1])
-    // }
+    const [valueArr, setValue] = React.useState<number | number[]>([0, 100]);
 
     function valuetext(value: number) {
         return `${value}`;
@@ -40,15 +35,15 @@ function HW11() {
             </div>
 
             <div>
-                {/*<span>{value[0]}</span>*/}
+                {/*<span>{valueArr[0]}</span>*/}
                 <SuperDoubleRange
-                    value={value}
+                    value={valueArr}
                     onChangeRange={onChangeDoubleRange}
                     valuetext={valuetext}
-                    // value={[value1, value2]}
+                    // valueArr={[value1, value2]}
                     // сделать так чтоб value1 и value2 изменялось
                 />
-                {/*<span>{value[1]}</span>*/}
+                {/*<span>{valueArr[1]}</span>*/}
             </div>
 
             <hr/>
