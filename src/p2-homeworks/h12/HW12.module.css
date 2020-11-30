@@ -1,23 +1,39 @@
-.dark {
+.dark-theme {
     background: dimgrey;
 }
 
-.dark-text {
-    color: aliceblue;
+.dark-theme-text {
+    color: white;
 }
 
-.red {
-    background: lightcoral;
+.red-theme {
+    background: red;
 }
 
-.red-text {
-    color: aqua;
+.red-theme-text {
+    color: blue;
 }
 
-.some {
+.lightgreen-theme {
     background: lightgreen;
 }
 
-.some-text {
+.lightgreen-theme-text {
     color: darkslateblue;
+}
+
+.black-theme {
+    background: black;
+}
+
+.black-theme-text {
+    color: deeppink;
+}
+
+.gold-theme {
+    background: gold;
+}
+
+.gold-theme-text {
+    color: springgreen;
 }
